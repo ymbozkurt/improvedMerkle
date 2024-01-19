@@ -340,7 +340,13 @@ public class merkleTree extends JFrame {
             thirdPanel.add(thirdTopText3);
             thirdPanel.add(thirdTopText4);
             resultsPanel.add(thirdPanel);
-
+            topHashText.setEditable(false);
+            secondTopText1.setEditable(false);
+            secondTopText2.setEditable(false);
+            thirdTopText1.setEditable(false);
+            thirdTopText2.setEditable(false);
+            thirdTopText3.setEditable(false);
+            thirdTopText4.setEditable(false);
         JPanel bottomPanel = new JPanel();
             bottomPanel.setOpaque(false);
             bottomPanel.setBorder(BorderFactory.createLineBorder(Color.black));
